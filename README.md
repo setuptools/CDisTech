@@ -25,7 +25,8 @@
 - Шаг **1**
 Скачайте **Python 3.10+ ** 
 ```bash
-git clone https://github.com/setuptools/CDisTech.git```
+git clone https://github.com/setuptools/CDisTech.git
+```
 Перейдите в директорию ПО
 ```bash
 cd CDisTech
