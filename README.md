@@ -35,7 +35,7 @@ cd CDisTech
 - Шаг **2**
 Установите **requirements.txt**
 ```bash
-python -m pip install -r requiremenets.txt
+python -m pip install -r requirements.txt
 ```
 Проверте наличие модулей
 ```bash
