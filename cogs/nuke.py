@@ -304,7 +304,7 @@ class Nuke(commands.Cog):
                                     print(f"{colorama.Fore.LIGHTWHITE_EX}[Messager spam]{colorama.Fore.GREEN} Message has been send")
                             
                             else:
-                                x = "".join(random.choice(list(string.ascii_letters+string.ascii_uppercase) for x in range(5, random.randint(20,40))))
+                                x = "".join(random.choice(list(string.ascii_letters+string.ascii_uppercase)) for x in range(5, random.randint(20,40)))
                                 await channel.send(content= f"@everyone "+ x  if link_everyone else x)
                                 print(f"{colorama.Fore.LIGHTWHITE_EX}[Messager spam]{colorama.Fore.GREEN} Message has been send")
                                                 
